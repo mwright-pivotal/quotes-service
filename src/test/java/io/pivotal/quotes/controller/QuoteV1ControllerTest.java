@@ -37,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @author David Ferreira Pinto
  */
 @RunWith(SpringRunner.class)
-@WebMvcTest(controllers = QuoteV1Controller.class, secure = false)
+@WebMvcTest(controllers = QuoteV1Controller.class)
 public class QuoteV1ControllerTest {
 
     @Autowired

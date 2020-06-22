@@ -9,8 +9,6 @@ import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableCircuitBreaker
 public class QuotesApplication {
 
     public static void main(String[] args) {
